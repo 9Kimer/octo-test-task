@@ -1,0 +1,159 @@
+.black {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	height: 70vh;
+	background: black;
+}
+
+.black_right {
+	object-fit: cover;
+	object-position: 50% 0%;
+	width: 458px;
+	height: 380px;
+}
+
+.black_left {
+	max-width: 35vw;
+	margin-right: 120px;
+}
+
+.black_left_title {
+	color: #00b6dd;
+	font-weight: 700;
+	font-size: 62px;
+	letter-spacing: 1.4px;
+	margin-bottom: 20px;
+}
+
+.black_left_text {
+	color: white;
+	margin-bottom: 20px;
+	max-width: 34vw;
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 1.2px;
+}
+
+.black_left_btns {
+	display: flex;
+	align-items: center;
+
+	gap: 16px;
+}
+
+.black_left_btns_left {
+	width: 160px;
+	height: 40px;
+	border: 2px solid #00b6dd;
+	background: #00b6dd;
+	color: white;
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 0.8px;
+}
+
+.black_left_btns_right {
+	width: 160px;
+	height: 40px;
+	border: 2px solid #00b6dd;
+	background: black;
+	color: white;
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 0.8px;
+}
+
+@media (max-width: 1200px) {
+	.black_left_title {
+		font-size: 54px;
+		letter-spacing: 1.2px;
+	}
+
+	.black_left_text {
+		font-size: 20px;
+	}
+
+	.black_right {
+		width: 455px;
+		height: 332px;
+	}
+}
+
+@media (max-width: 992px) {
+	.black {
+		text-align: center;
+		display: block;
+		height: 100vh;
+	}
+
+	.black_left {
+		padding-top: 70px;
+		text-align: center;
+		max-width: 70vw;
+		margin: 0 auto;
+	}
+
+	.black_left_btns {
+		justify-content: center;
+		margin: 0 auto;
+		margin-bottom: 40px;
+		margin-top: 30px;
+	}
+
+	.black_left_text {
+		max-width: 70vw;
+	}
+
+	.black_left_title {
+		font-size: 46px;
+		letter-spacing: 1px;
+	}
+
+	.black_left_text {
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+
+	.black_right {
+		width: 596px;
+		height: 364px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 768px) {
+	.black_right {
+		width: 450px;
+		height: 275px;
+	}
+}
+
+@media (max-width: 576px) {
+	.black_left {
+		max-width: 90vw;
+	}
+
+	.black_left_btns {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.black_left_btns_left {
+		width: 90vw;
+	}
+
+	.black_left_btns_right {
+		width: 90vw;
+	}
+
+	.black_left_text {
+		margin: 0 auto;
+	}
+
+	.black_right {
+		width: 290px;
+		height: 146px;
+	}
+}
